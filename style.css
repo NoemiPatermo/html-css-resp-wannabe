@@ -71,3 +71,25 @@ img {
 .clear {
   clear: both;
 }
+/* START ESERCIZIO*/
+
+@media screen and (max-width: 420px) {
+   .container .row,
+   #lezioni .row>.left,
+   #lezioni .row>.right {
+   background-color: darkkhaki;
+   width: 100%;
+   float: none;
+  }
+} 
+
+@media screen and (max-width: 420px) {
+   #steps .row,
+   #steps .row>.left,
+   #steps .row>.central,
+   #steps .row>.right {
+   float: none;
+   width: 100%;
+   background-color: white; 
+  }
+}
