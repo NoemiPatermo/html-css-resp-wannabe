@@ -73,23 +73,26 @@ img {
 }
 /* START ESERCIZIO*/
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 575px) {
    .container .row,
    #lezioni .row>.left,
-   #lezioni .row>.right {
-   background-color: darkkhaki;
+   #lezioni .row>.right,
+   #why .row>.first,
+   #why .row>.second,
+   #why .row>.third{
+   background-color: lightgoldenrodyellow;
    width: 100%;
-   float: none;
+   
+   
   }
 } 
 
-@media screen and (max-width: 420px) {
-   #steps .row,
+ @media screen and (max-width: 575px){
    #steps .row>.left,
    #steps .row>.central,
-   #steps .row>.right {
-   float: none;
-   width: 100%;
-   background-color: white; 
-  }
-}
+   #steps  .row>.right {
+     background-color: white;
+     width: 100%;
+   }
+   
+ }
